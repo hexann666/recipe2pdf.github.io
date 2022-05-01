@@ -6,13 +6,41 @@
     <description>Recent content in blog on Recipe to PDF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 14:22:01 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 15:21:59 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrum setup</title>
+      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</link>
+      <pubDate>Sun, 01 May 2022 15:21:59 +0200</pubDate>
+      
+      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</guid>
+      <description>&lt;p&gt;To structure the tasks in the project I devided all Issues into 7 Steps, 6 of them are provided as required content in the &lt;a href=&#34;https://lukashuber.notion.site/SE-Portfolio-d319a318fde2409a9fb83f4afee992d8&#34;&gt;project requirements&lt;/a&gt; and Step 0 is dedicated to SCRUM workflow:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 0&lt;/strong&gt; - prepare canvas for SCRUM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt; - requirements based on the project goal&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt; - describe Data Science methodology concept&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt; - diagrams&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt; - web technologies&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt; - architecture (optional)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt; - desing and DS architecture&lt;/p&gt;
+&lt;p&gt;To follow the Issues assigned to each Step, there is an Epic board, that shows all Issues according to the Epics they belong to.
+&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_epic_board_1.JPG&#34; alt=&#34;Epic board&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To track the progress of the Issues there is the Kanban board structured after defined Issue states:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;open&lt;/strong&gt; - automatically given to any new Issue by GitLab if nothing else specified;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;in progress&lt;/strong&gt; - work has begun;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;blocked&lt;/strong&gt; - work is blocked by another not-done Issue;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;done&lt;/strong&gt; - work is finished.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here Kanban board after finishing Step 0.
+&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG&#34; alt=&#34;Kanban board&#34;&gt;&lt;/p&gt;
+&lt;p&gt;P.S. this awkward feeling, when you get to know, what time it is now from an automatic timestamp in a new file. brave new world&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Brainstorming about project flow</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/post/brainstorming_1/</link>
+      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/brainstorming_1/</link>
       <pubDate>Sun, 01 May 2022 14:22:01 +0200</pubDate>
       
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/post/brainstorming_1/</guid>
+      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/brainstorming_1/</guid>
       <description>Technical requirements</description>
     </item>
     

@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>technical &middot; </title>
-        <meta name="description" content="">
+        <title>Brainstorming about project flow &middot; </title>
+        <meta name="description" content="Technical requirements">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.97.3" />
@@ -15,8 +15,6 @@
         <link rel="stylesheet" href="https://hexann666.github.io/recipe2pdf.github.io/dist/syntax.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
-            <link href="/recipe2pdf.github.io/tags/technical/index.xml" rel="alternate" type="application/rss+xml">
         
         
         
@@ -84,32 +82,43 @@
             <div id="container">
 
 
-<div id="post-index" class="container">
+<div class="container">
+    <article class="post-container">
+        <header class="post-header">
+    <h1 class="post-title">Brainstorming about project flow</h1>
     
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name">Recipe to PDF documentation</h1>
-        <p></p>
-    </header>
+</header>
 
+        <div class="post-content clearfix">
+    
 
+    <p>As I want to deliver the product iteratively, I separated the desired functionality in 3 releases, that build-up on the previous state and after each deployment deliver a running product to the users.
+Release 1 - generate PDF from a URL provided by user. 
+Release 2 - save PDF and data to data base, if user gave consent.
+Release 3 - provide a choice of 3 templates for PDF.
+Release 4 - if user types is some ingredients, he should get a recipe recommendation from the recipes stored in data base.</p>
+<p><em>Note: it is visible from Miro board, that at the beginninge Release 1 and 2 were in one unit and next Release was 1.5. After some consideration I separated Release 1 in two parts, defining MVP as just delivering a PDF to the user and bringing non-behavioral functionality to the next iteration. Also for the sake of simplicity I swithced to integer numbers in release numeration.</em></p>
+<p>For the further definition of project flow I used CRISP-DM, here is the screenshot from the first phase of brainstorming:
+<img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/recipe2pdf_-_CRISP-DM_.jpg" alt="crisp_picture"></p>
+<p>For detailed analysis of DS methodology and flow see <a href="https://hexann666.github.io/recipe2pdf.github.io/posts/ds_concept/">this post</a>.</p>
 
-    <ol class="post-list tag-list">
-        
-        
-            <li class="post-stub">
-    <a href="https://hexann666.github.io/recipe2pdf.github.io/posts/my-first-post/">
-        <h4 class="post-stub-title">My First Post</h4>
-        
-        
-    </a>
-</li>
-        
-    </ol>
+</div>
 
-    <div class="post-navigation tag-navigation">
-        
-
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/recipe2pdf.github.io/tags/blog/">blog</a>, 
+                <a href="/recipe2pdf.github.io/tags/miro/">miro</a>, 
+                <a href="/recipe2pdf.github.io/tags/crisp-dm/">CRISP-DM</a>
+        </p>
+    <div class="share">
+            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=Brainstorming%20about%20project%20flow&url=https%3a%2f%2fhexann666.github.io%2frecipe2pdf.github.io%2fposts%2fbrainstorming_1%2f&summary="
+               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
     </div>
+</footer>
+    </article>
 </div>
 
             </div>
@@ -130,7 +139,7 @@
                     <span>&copy; 2022 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
                 </p>
                 <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="https://jollygoodthemes.com">JollyGoodThemes</a></span>
                     <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
                 </p>
             </div>
@@ -142,3 +151,4 @@
         
     </body>
 </html>
+

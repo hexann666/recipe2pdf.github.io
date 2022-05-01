@@ -6,22 +6,13 @@
     <description>Recent content in tryouts on Recipe to PDF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Apr 2022 20:23:35 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/categories/tryouts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Requirements</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/post/summaries/</link>
-      <pubDate>Tue, 26 Apr 2022 20:23:35 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/post/summaries/</guid>
-      <description>&lt;p&gt;Here will be requirements for the project:&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Tue, 26 Apr 2022 20:17:01 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/categories/tryouts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/post/my-first-post/</link>
+      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 26 Apr 2022 20:17:01 +0200</pubDate>
       
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/post/my-first-post/</guid>
+      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/my-first-post/</guid>
       <description>Starting project Just trying out Hugo to start a static website.
 Source  https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad  </description>
     </item>
