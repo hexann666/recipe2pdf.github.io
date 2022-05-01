@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>technical on Recipe to PDF</title><link>https://recipe2pdf.github.io/tags/technical/</link><description>Recent content in technical on Recipe to PDF</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Apr 2022 20:17:01 +0200</lastBuildDate><atom:link href="https://recipe2pdf.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://recipe2pdf.github.io/post/my-first-post/</link><pubDate>Tue, 26 Apr 2022 20:17:01 +0200</pubDate><guid>https://recipe2pdf.github.io/post/my-first-post/</guid><description>Starting project Just trying out Hugo to start a static website.
-Source https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technical on Recipe to PDF</title>
+    <link>https://hexann666.github.io/recipe2pdf.github.io/tags/technical/</link>
+    <description>Recent content in technical on Recipe to PDF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Apr 2022 20:17:01 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://hexann666.github.io/recipe2pdf.github.io/post/my-first-post/</link>
+      <pubDate>Tue, 26 Apr 2022 20:17:01 +0200</pubDate>
+      
+      <guid>https://hexann666.github.io/recipe2pdf.github.io/post/my-first-post/</guid>
+      <description>Starting project Just trying out Hugo to start a static website.
+Source  https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad  </description>
+    </item>
+    
+  </channel>
+</rss>
