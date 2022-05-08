@@ -4,88 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Data Science methodology and concept &middot; </title>
-        <meta name="description" content="
-Business understanding
-To unify business requirements with functionality I formulated the simple acceptance test cases for the main functionality of each release.
-Release 1
-Behavioral functionality:
-Description: user provides a URL of a website with a recipe she wants to have as pdf.
-Instructions:
-
-paste URL https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/ into an input field.
-confirm URL as source with a click on a &ldquo;Generate recipe pdf&rdquo; button.
-
-Expected result: a recipe PDF opens in a new tab
-Release 2
-Behavioral functionality:
-Description: user provides a URL of a website with a recipe she wants to have as pdf.
-Instructions:
-
-paste URL https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/ into an input field.
-tick a checkbox with text &ldquo;May we store this recipe in our data base?&rdquo;:
-confirm URL as source with a click on a &ldquo;Generate recipe pdf&rdquo; button.
-
-Expected result: a recipe PDF opens in a new tab.
-Non-behavioral functionality:
-Description: if user gave permission to store the data, save pdf and scrpaed text in the data base.
-Instructions:
-
-If user ticks a checkbox with text &ldquo;May we store this recipe in our data base?&rdquo;:
-
-store recipe title, ingredients, instructions and notes in database
-store the recipe PDF in a database with a key=recipe_title
-
-
-
-Expected result: for key 1 a PDF is stored in database and information from the website from df columns title, ingridients, instructions, note
-Release 3:
-Behavioral functionality:
-Description: user can choose a template for the pdf.
-Instructions:
-
-paste URL https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/ into an input field
-choose one of three templates.
-optional: tick a checkbox with text &ldquo;May we store this recipe in our data base?&rdquo;:
-confirm URL as source with a click on a &ldquo;Generate recipe pdf&rdquo; button.
-
-Expected result: PDF is generated with chosen PDF template, if step 2 was done.
-Note: If step 2 was skipped, pdf is generated with a default pdf.
-Release 4:
-Behavioral functionality:
-Description: user can enter ingridients of her choice and get a recipe suggestion.
-Instructions:
-
-type in ingridients separated by comma into input field
-confirm input by clicking &ldquo;inspire me!&rdquo;
-
-Expected result: a recipe suggestion is shown below the &ldquo;inspire me&rdquo; button.
-Non-behavioral functionality:
-Description: user can enter ingridients of her choice and get a recipe suggestion.
-Instructions:
-
-type in ingridients &ldquo;banana, oatmeal, milk, eggs&rdquo; into input field
-confirm input by clicking &ldquo;inspire me!&rdquo;
-run ML algorithm &ldquo;recipe_prediction&rdquo; with content of input field as input ariables
-show the result with highest score in a field below the &ldquo;inspire me!&rdquo; button
-
-Expected result: a recipe suggestion is shown below the &ldquo;inspire me!&rdquo; button.
-Data understanding
-
-I analysed the typical layout and content of some english speaking food blogs. Here are some overall rules on the example of this recipe:
-
-
-Usually the food blog article consists of an introduction part with some comments from author about the idea of the recipe and some optional suggestions to avoid/substitute/add some ingredients and multiple pictures.
-
-
-The next part is the one, that contains actual cooking informations. For the recipe2pdf algorithm this part is crucial. It has following parts, that we will use for PDF generation, storing the data and ML algorithm: title (1), ingredients (2), instructions (3) and some optional notes (4).
-
-
-There is often a button &ldquo;jump to recipe&rdquo; at the top of the page, that brings the user to the second part. Note: can it be used to find the part of the website, which is crucial for our project?
-
-
-sources:
-https://www.datascience-pm.com/crisp-dm-2/
-https://www.agilemodeling.com/essays/agileRequirements.htm">
+        <meta name="description" content="">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.97.3" />
@@ -148,7 +67,7 @@ https://www.agilemodeling.com/essays/agileRequirements.htm">
     </li>
 
     <li class="site-nav-item">
-        <a href="page/requirements/">Requirements</a>
+        <a href="/recipe2pdf.github.io/page/requirements/">Requirements</a>
     </li>
 
     <li class="site-nav-item">
@@ -174,7 +93,7 @@ https://www.agilemodeling.com/essays/agileRequirements.htm">
     
 
     <p><img src="https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png" alt="crisp_scheme"></p>
-<h2 id="business-understanding">Business understanding</h2>
+<h1 id="business-understanding">Business understanding</h1>
 <p>To unify business requirements with functionality I formulated the simple acceptance test cases for the main functionality of each release.</p>
 <h3 id="release-1">Release 1</h3>
 <h4 id="behavioral-functionality">Behavioral functionality:</h4>
@@ -238,7 +157,7 @@ https://www.agilemodeling.com/essays/agileRequirements.htm">
 <li>show the result with highest score in a field below the &ldquo;inspire me!&rdquo; button</li>
 </ul>
 <p><strong>Expected result:</strong> a recipe suggestion is shown below the &ldquo;inspire me!&rdquo; button.</p>
-<h2 id="data-understanding">Data understanding</h2>
+<h1 id="data-understanding">Data understanding</h1>
 <p><img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/recipe2pdf-Data%20understanding.jpg" alt="data_understanding"></p>
 <p>I analysed the typical layout and content of some english speaking food blogs. Here are some overall rules on the example of <a href="https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/">this recipe</a>:</p>
 <ul>
@@ -252,12 +171,39 @@ https://www.agilemodeling.com/essays/agileRequirements.htm">
 <p>There is often a button &ldquo;jump to recipe&rdquo; at the top of the page, that brings the user to the second part. <em>Note: can it be used to find the part of the website, which is crucial for our project?</em></p>
 </li>
 </ul>
-<p>sources:
+<h1 id="data-preparation">Data preparation</h1>
+<p>Data preparation technique depends on the modeling task. As we have two main technical cluster in the software, data preparation steps will be based on the main issue with data and are taylored to concrete Use Case.</p>
+<p><img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/recipe2pdf-Data_preparation.jpg" alt="data_preparation"></p>
+<p>Detailed overview of solutions, that were chosen for the data preparation in the brainstorming session is displayed in the flow diagram in Modeling section.</p>
+<h1 id="modeling">Modeling</h1>
+<p>On the first diagram entire process is shown from the current perspective with all 3 releases being included in this visualisation. Two use cases are shown from the ser perspective in two swim lanes on the top and the bottom, the swim lane in the middle shows the system operations, that the backend should perform to provide functionality.</p>
+<p><img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/diagrams+process_flows/flow_diagram.jpeg" alt="flow_diagram"></p>
+<p>The next process diagram shows the main technical steps and selected solutions for data mining, preparation and modeling. Also it is shown, which steps belong to which release.</p>
+<p><img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/diagrams+process_flows/diagram_technical_steps.png" alt="technical_steps"></p>
+<p>Main libraries, that will be used are BeautifulSoup, PDFQuery, FPDF, pdfkit, spacey, sklearn</p>
+<h1 id="evaluation">Evaluation</h1>
+<p>This phase will be repeated for every iteration, whereas following questions are to answer after each release:</p>
+<p><strong>Evaluate results:</strong> Do the models meet the business success criteria? The estimation will be conducted with the test results and compared to the acceptance criteria of the release, defined above.</p>
+<p><strong>Review process:</strong> Review the work accomplished. Summarize findings and correct anything if needed. The goal is to compare the expected results according to technical and businss requirement, set before the release and including the changes, that might come up during implementation, and the final product of this release. Lessons learned and process updates should be analysed and drawn for the next iteration.</p>
+<p><strong>Determine next steps:</strong> The decision should be made, if it is possible to deploy current state of the project or some changes are needed. It is possible, that concerning the release results there will be changes in the scope of next release(s).</p>
+<h1 id="deployment">Deployment</h1>
+<p><strong>Deployment:</strong> for this project deployment with Flask to the recipe2pdf website is planned.
+Following diagram summs up the technologies, which were chosen in first phase of planning to support defined architecture:</p>
+<p><img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/recipe2pdf-Architecture.jpg" alt="recipe2pdf architecture"></p>
+<p><strong>Review project:</strong> Conduct a project retrospective about what went well, what could have been better, and how to improve in the future.</p>
+<p><strong>Sources:</strong>
 <a href="https://www.datascience-pm.com/crisp-dm-2/">https://www.datascience-pm.com/crisp-dm-2/</a>
 <a href="https://www.agilemodeling.com/essays/agileRequirements.htm">https://www.agilemodeling.com/essays/agileRequirements.htm</a></p>
 </div>
 
-        <footer class="post-footer clearfix"><div class="share">
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/recipe2pdf.github.io/tags/blog/">blog</a>, 
+                <a href="/recipe2pdf.github.io/tags/miro/">miro</a>, 
+                <a href="/recipe2pdf.github.io/tags/crisp-dm/">CRISP-DM</a>
+        </p>
+    <div class="share">
             <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=Data%20Science%20methodology%20and%20concept&url=https%3a%2f%2fhexann666.github.io%2frecipe2pdf.github.io%2fposts%2fds_concept%2f&summary="
                onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
                <i class="fa fa-linkedin" aria-hidden="true"></i>

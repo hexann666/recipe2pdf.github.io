@@ -13,88 +13,7 @@
       <pubDate>Sun, 01 May 2022 16:41:56 +0200</pubDate>
       
       <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/ds_concept/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png&#34; alt=&#34;crisp_scheme&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;business-understanding&#34;&gt;Business understanding&lt;/h2&gt;
-&lt;p&gt;To unify business requirements with functionality I formulated the simple acceptance test cases for the main functionality of each release.&lt;/p&gt;
-&lt;h3 id=&#34;release-1&#34;&gt;Release 1&lt;/h3&gt;
-&lt;h4 id=&#34;behavioral-functionality&#34;&gt;Behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; user provides a URL of a website with a recipe she wants to have as pdf.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;paste URL &lt;a href=&#34;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&#34;&gt;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&lt;/a&gt; into an input field.&lt;/li&gt;
-&lt;li&gt;confirm URL as source with a click on a &amp;ldquo;Generate recipe pdf&amp;rdquo; button.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; a recipe PDF opens in a new tab&lt;/p&gt;
-&lt;h3 id=&#34;release-2&#34;&gt;Release 2&lt;/h3&gt;
-&lt;h4 id=&#34;behavioral-functionality-1&#34;&gt;Behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; user provides a URL of a website with a recipe she wants to have as pdf.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;paste URL &lt;a href=&#34;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&#34;&gt;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&lt;/a&gt; into an input field.&lt;/li&gt;
-&lt;li&gt;tick a checkbox with text &amp;ldquo;May we store this recipe in our data base?&amp;rdquo;:&lt;/li&gt;
-&lt;li&gt;confirm URL as source with a click on a &amp;ldquo;Generate recipe pdf&amp;rdquo; button.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; a recipe PDF opens in a new tab.&lt;/p&gt;
-&lt;h4 id=&#34;non-behavioral-functionality&#34;&gt;Non-behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; if user gave permission to store the data, save pdf and scrpaed text in the data base.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;If user ticks a checkbox with text &amp;ldquo;May we store this recipe in our data base?&amp;rdquo;:
-&lt;ul&gt;
-&lt;li&gt;store recipe title, ingredients, instructions and notes in database&lt;/li&gt;
-&lt;li&gt;store the recipe PDF in a database with a key=recipe_title&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; for key 1 a PDF is stored in database and information from the website from df columns title, ingridients, instructions, note&lt;/p&gt;
-&lt;h3 id=&#34;release-3&#34;&gt;Release 3:&lt;/h3&gt;
-&lt;h4 id=&#34;behavioral-functionality-2&#34;&gt;Behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; user can choose a template for the pdf.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;paste URL &lt;a href=&#34;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&#34;&gt;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&lt;/a&gt; into an input field&lt;/li&gt;
-&lt;li&gt;choose one of three templates.&lt;/li&gt;
-&lt;li&gt;optional: tick a checkbox with text &amp;ldquo;May we store this recipe in our data base?&amp;rdquo;:&lt;/li&gt;
-&lt;li&gt;confirm URL as source with a click on a &amp;ldquo;Generate recipe pdf&amp;rdquo; button.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; PDF is generated with chosen PDF template, if step 2 was done.
-&lt;em&gt;Note: If step 2 was skipped, pdf is generated with a default pdf.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;release-4&#34;&gt;Release 4:&lt;/h3&gt;
-&lt;h4 id=&#34;behavioral-functionality-3&#34;&gt;Behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; user can enter ingridients of her choice and get a recipe suggestion.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;type in ingridients separated by comma into input field&lt;/li&gt;
-&lt;li&gt;confirm input by clicking &amp;ldquo;inspire me!&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; a recipe suggestion is shown below the &amp;ldquo;inspire me&amp;rdquo; button.&lt;/p&gt;
-&lt;h4 id=&#34;non-behavioral-functionality-1&#34;&gt;Non-behavioral functionality:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; user can enter ingridients of her choice and get a recipe suggestion.
-&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;type in ingridients &amp;ldquo;banana, oatmeal, milk, eggs&amp;rdquo; into input field&lt;/li&gt;
-&lt;li&gt;confirm input by clicking &amp;ldquo;inspire me!&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;run ML algorithm &amp;ldquo;recipe_prediction&amp;rdquo; with content of input field as input ariables&lt;/li&gt;
-&lt;li&gt;show the result with highest score in a field below the &amp;ldquo;inspire me!&amp;rdquo; button&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Expected result:&lt;/strong&gt; a recipe suggestion is shown below the &amp;ldquo;inspire me!&amp;rdquo; button.&lt;/p&gt;
-&lt;h2 id=&#34;data-understanding&#34;&gt;Data understanding&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/recipe2pdf-Data%20understanding.jpg&#34; alt=&#34;data_understanding&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I analysed the typical layout and content of some english speaking food blogs. Here are some overall rules on the example of &lt;a href=&#34;https://www.ambitiouskitchen.com/banana-oatmeal-pancakes/&#34;&gt;this recipe&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Usually the food blog article consists of an introduction part with some comments from author about the idea of the recipe and some optional suggestions to avoid/substitute/add some ingredients and multiple pictures.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The next part is the one, that contains actual cooking informations. For the recipe2pdf algorithm this part is crucial. It has following parts, that we will use for PDF generation, storing the data and ML algorithm: title (1), ingredients (2), instructions (3) and some optional notes (4).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;There is often a button &amp;ldquo;jump to recipe&amp;rdquo; at the top of the page, that brings the user to the second part. &lt;em&gt;Note: can it be used to find the part of the website, which is crucial for our project?&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;sources:
-&lt;a href=&#34;https://www.datascience-pm.com/crisp-dm-2/&#34;&gt;https://www.datascience-pm.com/crisp-dm-2/&lt;/a&gt;
-&lt;a href=&#34;http://www.agilemodeling.com/essays/agileRequirements.htm&#34;&gt;http://www.agilemodeling.com/essays/agileRequirements.htm&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png&#34; alt=&#34;crisp_scheme&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,8 +40,7 @@
 &lt;li&gt;&lt;strong&gt;done&lt;/strong&gt; - work is finished.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here Kanban board after finishing Step 0.
-&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG&#34; alt=&#34;Kanban board&#34;&gt;&lt;/p&gt;
-&lt;p&gt;P.S. this awkward feeling, when you get to know, what time it is now from an automatic timestamp in a new file. brave new world&amp;hellip;&lt;/p&gt;</description>
+&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG&#34; alt=&#34;Kanban board&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

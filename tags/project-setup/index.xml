@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recipe to PDF</title>
-    <link>https://hexann666.github.io/recipe2pdf.github.io/</link>
-    <description>Recent content on Recipe to PDF</description>
+    <title>Project setup on Recipe to PDF</title>
+    <link>https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/</link>
+    <description>Recent content in Project setup on Recipe to PDF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 10:21:59 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/page/about/</link>
-      <pubDate>Sun, 08 May 2022 10:21:59 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/page/about/</guid>
-      <description>About the project</description>
-    </item>
-    
-    <item>
-      <title>Data Science methodology and concept</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/ds_concept/</link>
-      <pubDate>Sun, 01 May 2022 16:41:56 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/ds_concept/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png&#34; alt=&#34;crisp_scheme&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Requirements</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/page/requirements/</link>
-      <pubDate>Sun, 01 May 2022 16:21:59 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/page/requirements/</guid>
-      <description>Technical requirements</description>
-    </item>
-    
+    <lastBuildDate>Sun, 01 May 2022 15:21:59 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scrum setup</title>
       <link>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</link>
@@ -59,25 +32,6 @@
 &lt;/ul&gt;
 &lt;p&gt;Here Kanban board after finishing Step 0.
 &lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG&#34; alt=&#34;Kanban board&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Brainstorming about project flow</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/brainstorming_1/</link>
-      <pubDate>Sun, 01 May 2022 14:22:01 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/brainstorming_1/</guid>
-      <description>Technical requirements</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/my-first-post/</link>
-      <pubDate>Tue, 26 Apr 2022 20:17:01 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/my-first-post/</guid>
-      <description>Starting project Just trying out Hugo to start a static website.
-Source  https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad  </description>
     </item>
     
   </channel>
