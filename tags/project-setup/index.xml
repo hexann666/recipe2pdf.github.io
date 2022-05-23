@@ -1,38 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Project setup on Recipe to PDF</title>
-    <link>https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/</link>
-    <description>Recent content in Project setup on Recipe to PDF</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 15:21:59 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Scrum setup</title>
-      <link>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</link>
-      <pubDate>Sun, 01 May 2022 15:21:59 +0200</pubDate>
-      
-      <guid>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</guid>
-      <description>&lt;p&gt;To structure the tasks in the project I devided all Issues into 7 Steps, 6 of them are provided as required content in the &lt;a href=&#34;https://lukashuber.notion.site/SE-Portfolio-d319a318fde2409a9fb83f4afee992d8&#34;&gt;project requirements&lt;/a&gt; and Step 0 is dedicated to SCRUM workflow:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 0&lt;/strong&gt; - prepare canvas for SCRUM&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt; - requirements based on the project goal&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt; - describe Data Science methodology concept&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt; - diagrams&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt; - web technologies&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt; - architecture (optional)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt; - desing and DS architecture&lt;/p&gt;
-&lt;p&gt;To follow the Issues assigned to each Step, there is an Epic board, that shows all Issues according to the Epics they belong to.
-&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_epic_board_1.JPG&#34; alt=&#34;Epic board&#34;&gt;&lt;/p&gt;
-&lt;p&gt;To track the progress of the Issues there is the Kanban board structured after defined Issue states:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;open&lt;/strong&gt; - automatically given to any new Issue by GitLab if nothing else specified;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;in progress&lt;/strong&gt; - work has begun;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;blocked&lt;/strong&gt; - work is blocked by another not-done Issue;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;done&lt;/strong&gt; - work is finished.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Here Kanban board after finishing Step 0.
-&lt;img src=&#34;https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG&#34; alt=&#34;Kanban board&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project setup on Recipe to PDF</title><link>https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/</link><description>Recent content in Project setup on Recipe to PDF</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 15:21:59 +0200</lastBuildDate><atom:link href="https://hexann666.github.io/recipe2pdf.github.io/tags/project-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Scrum setup</title><link>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</link><pubDate>Sun, 01 May 2022 15:21:59 +0200</pubDate><guid>https://hexann666.github.io/recipe2pdf.github.io/posts/scrum_setup/</guid><description>&lt;p>To structure the tasks in the project I devided all Issues into 7 Steps, 6 of them are provided as required content in the &lt;a href="https://lukashuber.notion.site/SE-Portfolio-d319a318fde2409a9fb83f4afee992d8">project requirements&lt;/a> and Step 0 is dedicated to SCRUM workflow:&lt;/p>
+&lt;p>&lt;strong>Step 0&lt;/strong> - prepare canvas for SCRUM&lt;/p>
+&lt;p>&lt;strong>Step 1&lt;/strong> - requirements based on the project goal&lt;/p>
+&lt;p>&lt;strong>Step 2&lt;/strong> - describe Data Science methodology concept&lt;/p>
+&lt;p>&lt;strong>Step 3&lt;/strong> - diagrams&lt;/p>
+&lt;p>&lt;strong>Step 4&lt;/strong> - web technologies&lt;/p>
+&lt;p>&lt;strong>Step 5&lt;/strong> - architecture (optional)&lt;/p>
+&lt;p>&lt;strong>Step 6&lt;/strong> - design and DS architecture&lt;/p>
+&lt;p>To follow the Issues assigned to each Step, there is an Epic board, that shows all Issues according to the Epics they belong to.
+&lt;img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_epic_board_1.JPG" alt="Epic board">&lt;/p>
+&lt;p>To track the progress of the Issues there is the Kanban board structured after defined Issue states:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>open&lt;/strong> - automatically given to any new Issue by GitLab if nothing else specified;&lt;/li>
+&lt;li>&lt;strong>in progress&lt;/strong> - work has begun;&lt;/li>
+&lt;li>&lt;strong>blocked&lt;/strong> - work is blocked by another not-done Issue;&lt;/li>
+&lt;li>&lt;strong>done&lt;/strong> - work is finished.&lt;/li>
+&lt;/ul>
+&lt;p>Here Kanban board after finishing Step 0.
+&lt;img src="https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/photo_protocol/scrum_kanban_board_1.JPG" alt="Kanban board">&lt;/p></description></item></channel></rss>
