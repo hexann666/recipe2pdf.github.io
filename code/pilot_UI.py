@@ -13,8 +13,8 @@ with st.expander("See templates"):
     st.image(['https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/pilot_code/pdf_template_1.png',
         'https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/pilot_code/pdf_template_2.png'],
         width=300)
-st.radio('Would you like to choose a template for your recipe?', options=['Template 1', 'Template 2'])
-st.checkbox('May we store this recipe in our data base?')
+st.radio('Please choose a template for your recipe.', options=['Template 1', 'Template 2'])
+st.checkbox('Choosing this box you allow us to store your recipe in our data base.')
 st.button('Generate PDF')
 
 st.text_input('Type in ingridients')
