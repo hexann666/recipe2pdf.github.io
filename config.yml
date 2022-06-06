@@ -30,4 +30,11 @@ menu:
     - name: Requirements
       url: /page/requirements/
       weight: 3
-    
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
