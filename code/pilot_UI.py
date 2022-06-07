@@ -33,7 +33,6 @@ col1, col2, col3 = st.columns(3)
 with col2:
     st.title('Recipe2PDF')
 
-<<<<<<< HEAD
 # create sidebar to choose, which use case user wants to use
 page = st.sidebar.selectbox('Choose, what you want to do:', ('Generate PDF', 'Generate recommendation'))
 
@@ -48,23 +47,3 @@ elif page == 'Generate recommendation':
     What if it is possible to make of those same ingredients something, that is going to become your new got-to dinner? Or maybe fall into a new routine - having no food routine at all and looking forward to any meal.")
     st.markdown("Just type in the suff you have in your cupboard and see, what yummy recipe will inspire your cooking talents today!")
     recommendation()
-=======
-st.text_input("Your recipe's Web link")
-with st.expander("See templates"):
-    st.image(['https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/pilot_code/pdf_template_1.png',
-        'https://gitlab.web.fh-kufstein.ac.at/anna.fedorova/recipe2pdf/-/raw/main/pilot_code/pdf_template_2.png'],
-        width=300)
-st.radio('Please choose a template for your recipe.', options=['Template 1', 'Template 2'])
-st.checkbox('Choosing this box you allow us to store your recipe in our data base.')
-st.button('Generate PDF')
-
-st.text_input('Type in ingridients')
-if st.button('Inspire me!'):
-    with st.spinner('Magic is happening...'):
-        time.sleep(3)
-    st.balloons()
-    st.markdown('Found recommendations:')
-    st.markdown('*Name of some amazing recipe as hyperlink.*')
-    with st.expander('Download PDF'):
-        st.markdown('*Note: PDF will open in another browser tab*')
->>>>>>> a3c219a3cfe3959f4f34e11e0a8cdf663322ca1a
